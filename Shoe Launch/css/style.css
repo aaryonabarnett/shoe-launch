@@ -1,0 +1,81 @@
+.logo{
+  width: 45px;
+  top: 25px;
+}
+body{
+  background-color: black;
+  color: grey;
+}
+p{
+  text-align: center;
+  font-family: optima, sans serif;
+}
+h1,h2{
+  text-align: center;
+  font-family: fantasy;
+}
+#button{
+  width: 100px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27,0,27);
+  color: grey;
+  font-family: fantasy;
+  border-radius: 12px;
+}
+.pre-order{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+#button:hover{
+  color: pink;
+}
+#image2{
+  width: 700px;
+  padding-top: 50px
+}
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.astrodivider {
+  margin:64px auto;
+  width:400px; 
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask { 
+    overflow:hidden; height:20px; 
+}
+
+.astrodividermask:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px purple;
+}
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px pink;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed grey;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+    color: purple;
